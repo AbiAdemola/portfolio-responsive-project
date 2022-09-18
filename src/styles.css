@@ -1,0 +1,52 @@
+:root {
+    --background-colour: #f9f4ec;
+    --button-color: #d8ae84;
+    --button-padding: 18px 30px;
+    --button-text: #ffffff;
+    --button-border: 2px solid #bd8a8ac5;
+    --button-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "playfair display";
+    font-weight: bold;
+    color: black;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 2;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hero-header {
+    background-color: var(--background-colour);
+    padding: 160px 30px;
+}
+
+.button-set {
+    background-color: var(--button-color);
+    padding: var(--button-padding);
+    box-shadow: var(--button-shadow);
+}
