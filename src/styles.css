@@ -8,9 +8,9 @@
 }
 
 body {
-    text-align: center;
     width: 100%;
     margin: 0 auto;
+    font-family: "poppins";
 }
 
 h1,
@@ -33,6 +33,7 @@ h3 {
 h1 {
     font-weight: 700;
     font-size: 96px;
+    text-align: center;
 }
 
 h2 {
@@ -40,13 +41,39 @@ h2 {
     font-weight: 700;
 }
 
+h4 {
+    font-size: 34px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 .hero-header {
     background-color: var(--background-colour);
     padding: 160px 30px;
+    text-align: center;
+}
+
+p .hero-header {
+    font-size: 20px;
 }
 
 .button-set {
     background-color: var(--button-color);
     padding: var(--button-padding);
     box-shadow: var(--button-shadow);
+    color: white;
+}
+
+.button-set:hover {
+    color: var(--button-color) !important;
+    background-color: white !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.active-nav {
+    color: var(--button-color) !important;
 }
