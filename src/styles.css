@@ -40,17 +40,17 @@ h2 .hero-header {
 }
 
 h2 {
-    font-size: 64px;
+    font-size: 44px;
 }
 
 h3 {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 2;
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
 }
 
@@ -97,7 +97,7 @@ p {
     color: var(--button-color) !important;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     h1 {
         font-size: 50px;
         text-align: center;
@@ -108,7 +108,7 @@ p {
     }
 
     h3 {
-        font-size: 19px;
+        font-size: 20px;
         text-align: center;
     }
 
