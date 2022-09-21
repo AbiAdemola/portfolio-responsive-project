@@ -66,7 +66,6 @@ p {
     box-shadow: var(--button-shadow);
     color: white;
     font-size: 18px;
-    cursor: pointer;
 }
 
 .button-type2 {
@@ -78,9 +77,15 @@ p {
     border: var(--button-border);
 }
 
-(.button-type1, .button-type2) :hover {
+.button-type1:hover {
     color: var(--button-color) !important;
     background-color: white !important;
+    font-weight: bold;
+}
+
+.button-type2:hover {
+    color: white !important;
+    background-color: var(--button-color) !important;
     font-weight: bold;
 }
 
