@@ -8,7 +8,6 @@
 }
 
 body {
-    width: 100%;
     margin: 0 auto;
     font-family: "poppins";
 }
@@ -31,18 +30,23 @@ h3 {
 }
 
 h1 {
-    font-weight: 700;
+
     font-size: 96px;
     text-align: center;
 }
 
-h2 {
+h2 .hero-header {
     font-size: 36px;
-    font-weight: 700;
 }
 
-h4 {
-    font-size: 34px;
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 2;
 }
 
 p {
@@ -52,28 +56,78 @@ p {
 
 .hero-header {
     background-color: var(--background-colour);
-    padding: 160px 30px;
+    padding: 150px 25px;
     text-align: center;
 }
 
-p .hero-header {
-    font-size: 20px;
-}
-
-.button-set {
+.button-type1 {
     background-color: var(--button-color);
     padding: var(--button-padding);
     box-shadow: var(--button-shadow);
     color: white;
+    font-size: 18px;
 }
 
-.button-set:hover {
+.button-type2 {
+    background-color: white;
+    padding: var(--button-padding);
+    box-shadow: var(--button-shadow);
+    font-size: 18px;
+    color: var(--button-color);
+    border: var(--button-border);
+}
+
+.button-type1,
+.button-type2 :hover {
     color: var(--button-color) !important;
     background-color: white !important;
     font-weight: bold;
-    font-size: 16px;
+}
+
+.project-hp {
+    padding: 120px 60px;
 }
 
 .active-nav {
     color: var(--button-color) !important;
+}
+
+@media (max-width: 550px) {
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    h3 {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    body {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0px auto;
+    }
+
+    .hero-header {
+        font-size: 40px;
+        margin-top: -5px;
+        padding: 30px 20px;
+    }
+
+    .hero-header h2 {
+        font-size: 26px;
+    }
+
+    .button-type1 {
+        margin-top: 13px !important;
+    }
+
+    .project-hp {
+        padding: 1px 2px;
+    }
 }
