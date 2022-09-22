@@ -30,7 +30,6 @@ h3 {
 }
 
 h1 {
-
     font-size: 96px;
     text-align: center;
 }
@@ -45,13 +44,17 @@ h2 {
 
 h3 {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 2;
 }
 
 p {
     font-size: 18px;
     line-height: 1.5;
+}
+
+.pad-10 {
+    padding-left: 40px;
 }
 
 .hero-header {
@@ -97,6 +100,25 @@ p {
     color: var(--button-color) !important;
 }
 
+.aboutme-page h1 {
+    font-size: 64px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.aboutme-page h2 {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.aboutme-page {
+    padding: 160px 20px;
+}
+
+.aboutme-content {
+    margin: 30px;
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 50px;
@@ -133,5 +155,22 @@ p {
 
     .project-hp {
         padding: 1px 2px;
+    }
+
+    .aboutme-page {
+        padding: 0;
+    }
+
+    .aboutme-content {
+        text-align: center;
+    }
+
+    .aboutme-content h1 {
+        text-align: center;
+        font-size: 56px;
+    }
+
+    .aboutme-content h2 {
+        text-align: center;
     }
 }
