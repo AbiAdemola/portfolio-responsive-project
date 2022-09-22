@@ -23,7 +23,7 @@ h6 {
     color: black;
 }
 
-h3 {
+.hero-header h3 {
     font-weight: 400;
     font-size: 24px;
     line-height: 2;
@@ -40,12 +40,6 @@ h2 .hero-header {
 
 h2 {
     font-size: 44px;
-}
-
-h3 {
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 2;
 }
 
 p {
@@ -119,14 +113,24 @@ p {
     margin: 30px;
 }
 
+.work-page {
+    text-align: center;
+}
+
+.work-page h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
 @media (max-width: 600px) {
     h1 {
-        font-size: 50px;
-        text-align: center;
+        font-size: 50px !important;
+        text-align: center !important;
     }
 
     h2 {
         font-size: 40px;
+        text-align: center;
     }
 
     h3 {
@@ -162,15 +166,6 @@ p {
     }
 
     .aboutme-content {
-        text-align: center;
-    }
-
-    .aboutme-content h1 {
-        text-align: center;
-        font-size: 56px;
-    }
-
-    .aboutme-content h2 {
         text-align: center;
     }
 }
