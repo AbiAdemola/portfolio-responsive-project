@@ -47,10 +47,6 @@ p {
     line-height: 1.5;
 }
 
-.pad-10 {
-    padding-left: 40px;
-}
-
 .hero-header {
     background-color: var(--background-colour);
     padding: 150px 25px;
