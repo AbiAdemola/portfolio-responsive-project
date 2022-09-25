@@ -1,15 +1,15 @@
 :root {
-    --background-colour: #f9f4ec;
-    --button-color: #d8ae84;
-    --button-padding: 18px 30px;
-    --button-text: #ffffff;
-    --button-border: 2px solid #bd8a8ac5;
-    --button-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --background-colour: #f9f4ec;
+  --button-color: #d8ae84;
+  --button-padding: 18px 30px;
+  --button-text: #ffffff;
+  --button-border: 2px solid #bd8a8ac5;
+  --button-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-    margin: 0 auto;
-    font-family: "poppins";
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -18,150 +18,176 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "playfair display";
-    font-weight: bold;
-    color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: black;
 }
 
 .hero-header h3 {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 2;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 2;
 }
 
 h1 {
-    font-size: 96px;
-    text-align: center;
+  font-size: 96px;
+  text-align: center;
 }
 
 h2 .hero-header {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 h2 {
-    font-size: 44px;
+  font-size: 44px;
 }
 
 p {
-    font-size: 18px;
-    line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.5;
 }
-
+.nav-text {
+  padding-left: 120px !important;
+}
+.nav-text a:hover {
+  color: var(--button-color);
+}
+.nav-myname {
+  margin-right: -40px !important;
+}
 .hero-header {
-    background-color: var(--background-colour);
-    padding: 150px 25px;
-    text-align: center;
+  background-color: var(--background-colour);
+  padding: 150px 25px;
+  text-align: center;
 }
 
 .button-type1 {
-    background-color: var(--button-color);
-    padding: var(--button-padding);
-    box-shadow: var(--button-shadow);
-    color: white;
-    font-size: 18px;
+  background-color: var(--button-color);
+  padding: var(--button-padding);
+  box-shadow: var(--button-shadow);
+  color: white;
+  font-size: 20px;
 }
 
 .button-type2 {
-    background-color: white;
-    padding: var(--button-padding);
-    box-shadow: var(--button-shadow);
-    font-size: 18px;
-    color: var(--button-color);
-    border: var(--button-border);
+  background-color: white;
+  padding: var(--button-padding);
+  box-shadow: var(--button-shadow);
+  font-size: 20px;
+  color: var(--button-color);
+  border: var(--button-border);
 }
 
 .button-type1:hover {
-    color: var(--button-color) !important;
-    background-color: white !important;
-    font-weight: bold;
+  color: var(--button-color) !important;
+  background-color: white !important;
+  font-weight: bold;
 }
 
 .button-type2:hover {
-    color: white !important;
-    background-color: var(--button-color) !important;
-    font-weight: bold;
+  color: white !important;
+  background-color: var(--button-color) !important;
+  font-weight: bold;
 }
 
 .project-hp {
-    padding: 120px 60px;
+  padding: 120px 60px;
 }
 
 .active-nav {
-    color: var(--button-color) !important;
+  color: var(--button-color) !important;
 }
-
 .aboutme-page h1 {
-    font-size: 64px;
-    line-height: 1.2;
-    text-align: left;
+  font-size: 64px;
+  line-height: 1.2;
+  text-align: left;
 }
-
 .aboutme-page h2 {
-    font-size: 22px;
-    line-height: 1.5;
+  font-size: 22px;
+  line-height: 1.5;
 }
-
 .aboutme-page {
-    padding: 160px 20px;
+  padding: 160px 20px;
 }
-
 .aboutme-content {
-    margin: 30px;
+  margin: 30px;
 }
-
 .work-page {
-    text-align: center;
+  text-align: center;
+}
+.work-page h1 {
+  font-size: 64px;
+  font-weight: 700;
 }
 
-.work-page h1 {
-    font-size: 64px;
-    font-weight: 700;
+.contact-section {
+  background: var(--background-colour);
+  padding: 30px 130px;
+  margin: 60px 0;
+}
+
+footer .email-id p {
+  font-size: 22px;
+  font-weight: 600;
+}
+footer .socials a {
+  margin: 0 20px;
+  color: var(--button-color);
+  background: var(--background-colour);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 600px) {
-    h1 {
-        font-size: 50px !important;
-        text-align: center !important;
-    }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
 
-    h2 {
-        font-size: 40px;
-        text-align: center;
-    }
+  h2 {
+    font-size: 40px;
+  }
 
-    h3 {
-        font-size: 20px;
-        text-align: center;
-    }
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
 
-    body {
-        text-align: center;
-        margin: 0 auto;
-        padding: 0px auto;
-    }
+  body {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px auto;
+  }
 
-    .hero-header {
-        font-size: 40px;
-        padding: 30px 20px;
-    }
+  .hero-header {
+    font-size: 40px;
+    padding: 30px 20px;
+  }
 
-    .hero-header h2 {
-        font-size: 26px;
-    }
+  .hero-header h2 {
+    font-size: 26px;
+  }
 
-    .button-type1 {
-        margin-top: 13px !important;
-    }
+  .button-type1 {
+    margin-top: 13px !important;
+  }
 
-    .project-hp {
-        padding: 1px 2px;
-    }
-
-    .aboutme-page {
-        padding: 0;
-    }
-
-    .aboutme-content {
-        text-align: center;
-    }
+  .project-hp {
+    padding: 1px 2px;
+  }
+  .aboutme-page {
+    padding: 0;
+  }
+  .aboutme-content {
+    text-align: center;
+  }
+  .aboutme-content h1 {
+    text-align: center;
+    font-size: 56px;
+  }
+  .aboutme-content h2 {
+    text-align: center;
+  }
 }
