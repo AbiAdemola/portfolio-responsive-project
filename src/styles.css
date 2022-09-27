@@ -152,6 +152,18 @@ footer .socials a {
     transition: all 100ms ease-in-out;
 }
 
+.coder {
+    color: #d8ae84;
+    background-color: var(--background-colour);
+}
+
+.coder:hover {
+    color: white;
+    background-color: var(--button-color);
+    text-decoration: none;
+
+}
+
 @media (max-width: 550px) {
     h1 {
         font-size: 50px;
