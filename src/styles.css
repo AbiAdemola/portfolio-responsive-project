@@ -65,11 +65,6 @@ p {
     text-align: center;
 }
 
-#get-started {
-    padding-right: 350px;
-    padding-left: 350px;
-}
-
 .button-type1 {
     background-color: var(--button-color);
     padding: var(--button-padding);
