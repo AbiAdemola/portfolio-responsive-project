@@ -137,6 +137,11 @@ p {
     margin: 60px 0;
 }
 
+.upcoming li {
+    text-align: left;
+    margin-left: 110px;
+}
+
 footer .email-id p {
     font-size: 22px;
     font-weight: 600;
