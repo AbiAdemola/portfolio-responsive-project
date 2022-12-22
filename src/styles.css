@@ -120,6 +120,10 @@ p {
 .aboutme-content {
     margin: 30px;
 }
+.fe-d {
+    font-size: 20px;
+    margin-bottom: -10px;
+}
 
 .work-page {
     text-align: center;
